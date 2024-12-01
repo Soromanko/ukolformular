@@ -16,9 +16,32 @@
 <label for="Full name"></label>
 <input type="text" name="Full name" id="Full name">
 <p style="color: gray">Email</p>
-<input type="email" placeholder="neco@email.cz">
+<label for="Email"></label>
+<input type="email" id="Email" placeholder="neco@email.cz">
+<br>
+<br>
+
+<form>
+    <p style="color: gray">Oblíbený den</p>
+    <label for="Select"></label>
+    <select id="Select">
+        <optgroup label="vsedni dny">
+            <option value="1">Pondělí</option>
+            <option value="2">Úterý</option>
+            <option value="3">Středa</option>
+            <option value="4">Čtvrtek</option>
+            <option value="5">Pátek</option>
+        </optgroup>
+        <optgroup label="vikend">
+            <option value="6">Sobota</option>
+            <option value="7">Neděle</option>
+        </optgroup>
+    </select>
+</form>
+
 <p style="color: gray">Password</p>
-<input type="password">
+<label for="Password"></label>
+<input type="password" id="Password">
 <br>
 <br>
 <button>Sign Up</button>
@@ -26,7 +49,7 @@
 <br>
 <br>
 <div>
-<p style="color: gray">Have an account?</p> <a href=""> Login</a>
+<p style="color: gray">Have an account?</p><a href="/login/">Login</a>
 </div>
 
 </body>
